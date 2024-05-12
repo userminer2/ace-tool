@@ -1,2 +1,18 @@
+userminer2's list of scripts:
+
+Batch scripts:
+
+:Wifi disabler:
+title NoWifiLol && ipconfig /release
+
+:website bypasser:
+start https://www.croxyproxy.com/
+
+:cmd:
 @echo off
-shutdown /i
+title "Command Prompt remake by Userminer2"
+cd %userprofile%
+:cmd
+set /p exec="%cd%\>"
+%exec%
+goto cmd
