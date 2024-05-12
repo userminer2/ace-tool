@@ -16,3 +16,15 @@ cd %userprofile%
 set /p exec="%cd%\>"
 %exec%
 goto cmd
+
+:powershell:
+powershell.exe
+
+Python scripts:
+
+:Rickroll:
+import tkinter as tk
+wn = tk.Tk()
+wn.geometry("800x600")
+b = Button(Text = "https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+b.pack()
