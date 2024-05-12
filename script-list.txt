@@ -23,9 +23,12 @@ powershell.exe
 Python scripts:
 
 :Rickroll:
+import os
 import tkinter as tk
+def exec():
+	os.system("start https://www.youtube.com/watch?v=dQw4w9WgXcQ")
 wn = tk.Tk()
 wn.geometry("800x600")
-b = Button(Text = "https://www.youtube.com/watch?v=dQw4w9WgXcQ")
-b.pack()
+b = tk.Button(text = "Click me",command = exec)
+b.place(x = 0, y = 0, width = 800, height = 600)
 wn.mainloop()
